@@ -1,0 +1,25 @@
+GET http://localhost/api/posts
+Accept: application/json
+
+###
+POST http://localhost/api/posts
+Content-Type: application/json
+
+{
+  "title": "My Second Blog",
+  "content": "This is a test of blablalblblalbllballbalbla"
+}
+
+###
+PUT http://localhost/api/posts/6
+Content-Type: application/json
+
+{
+    "title": "My Sixth Blog",
+    "content": "This is a test of an actual fixed content"
+}
+
+###
+DELETE http://localhost/api/posts/4
+
+###
